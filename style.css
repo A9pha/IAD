@@ -1,0 +1,52 @@
+body {
+	font-family: serif;
+	text-align: center;
+}
+
+header {
+	font-family: sans-serif;
+	border-width: 12px;
+	font-size: 20px;
+	border-radius: 8px;
+	margin-top: : 10px;
+	margin-bottom: 0px;
+	padding: 5px;
+}
+
+header > p {
+	font-weight: 600;
+	font-style: italic;
+}
+
+header > div[id] {
+	font-style: italic;
+}
+
+img {
+	margin-bottom: 0px;
+	width: 400px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+table {
+	margin: auto;
+}
+
+tr:hover {
+	background: #7fffd4;
+}
+
+.buttonAndValue {
+	display: inline-block;
+	width: 9%
+}
+
+#group:first-letter {
+	font-weight: 700;
+}
+
+#submitButton {
+	margin-top: 20px;
+	font-size: 15px;
+}
